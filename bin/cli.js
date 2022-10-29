@@ -27,5 +27,3 @@ if (rolls_in) {
 }
 
 roll(side, dice, rolls)
-
-// console.log(JSON.stringify(message_out))
