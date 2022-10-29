@@ -6,7 +6,7 @@ import minimist from 'minimist'
 
 const args = minimist(process.argv.slice(2))
 
-const side_in = args.side
+const side_in = args.sides
 const dice_in = args.dice
 const rolls_in = args.rolls
 
@@ -16,6 +16,7 @@ var rolls = 1
 
 if (side_in) {
     side = side_in
+    // console.log(side)
 }
 
 if (dice_in) {
