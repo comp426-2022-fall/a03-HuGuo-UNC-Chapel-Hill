@@ -13,7 +13,6 @@ const rolls_in = args.rolls
 var side = 6
 var dice = 2
 var rolls = 1
-var result = []
 
 if (side_in) {
     side = side_in
@@ -27,6 +26,6 @@ if (rolls_in) {
     rolls = rolls_in
 }
 
-const message_out = roll(side, dice, rolls)
+roll(side, dice, rolls)
 
-console.log(JSON.stringify(message_out))
+// console.log(JSON.stringify(message_out))
